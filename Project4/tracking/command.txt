@@ -1,0 +1,3 @@
+python2.4 pacman.py -l bigHunt.lay -p BustersAgent -k 2 -g DispersingSeededGhost -a DoubleInferenceAgentTest 
+
+

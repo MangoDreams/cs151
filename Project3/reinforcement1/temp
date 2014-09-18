@@ -1,0 +1,441 @@
+Starting on 10-24 at 1:53:43
+
+Question q1
+===========
+
+*** FAIL: test_cases/q1/1-tinygrid.test
+***     Values at iteration 1 are NOT correct.
+***        Student solution:
+***      values_k_1: """
+***                10.0000
+***                10.0000
+***                10.0000
+***     """
+***     
+***     
+***        Correct solution:
+***      values_k_1: """
+***               -10.0000
+***                 0.0000
+***                10.0000
+***     """
+***     
+***     
+***     Q-Values at iteration 1 for action north are NOT correct.
+***        Student solution:
+***      q_values_k_1_action_north: """
+***                illegal
+***                10.0000
+***                illegal
+***     """
+***     
+***     
+***        Correct solution:
+***      q_values_k_1_action_north: """
+***                illegal
+***                -5.0000
+***                illegal
+***     """
+***     
+***     
+***     Q-Values at iteration 1 for action east are NOT correct.
+***        Student solution:
+***      q_values_k_1_action_east: """
+***                illegal
+***                10.0000
+***                illegal
+***     """
+***     
+***     
+***        Correct solution:
+***      q_values_k_1_action_east: """
+***                illegal
+***                 0.0000
+***                illegal
+***     """
+***     
+***     
+***     Q-Values at iteration 1 for action south are NOT correct.
+***        Student solution:
+***      q_values_k_1_action_south: """
+***                illegal
+***                10.0000
+***                illegal
+***     """
+***     
+***     
+***        Correct solution:
+***      q_values_k_1_action_south: """
+***                illegal
+***                 5.0000
+***                illegal
+***     """
+***     
+***     
+***     Q-Values at iteration 1 for action west are NOT correct.
+***        Student solution:
+***      q_values_k_1_action_west: """
+***                illegal
+***                10.0000
+***                illegal
+***     """
+***     
+***     
+***        Correct solution:
+***      q_values_k_1_action_west: """
+***                illegal
+***                 0.0000
+***                illegal
+***     """
+***     
+***     
+***     
+***     For more details to help you debug, see test output file test_cases/q1/1-tinygrid.test_output
+***     
+***     
+*** FAIL: test_cases/q1/2-tinygrid-noisy.test
+***     Values at iteration 1 are NOT correct.
+***        Student solution:
+***      values_k_1: """
+***                10.0000
+***                10.0000
+***                10.0000
+***     """
+***     
+***     
+***        Correct solution:
+***      values_k_1: """
+***               -10.0000
+***                 0.0000
+***                10.0000
+***     """
+***     
+***     
+***     Q-Values at iteration 1 for action north are NOT correct.
+***        Student solution:
+***      q_values_k_1_action_north: """
+***                illegal
+***                10.0000
+***                illegal
+***     """
+***     
+***     
+***        Correct solution:
+***      q_values_k_1_action_north: """
+***                illegal
+***                -5.6250
+***                illegal
+***     """
+***     
+***     
+***     Q-Values at iteration 1 for action east are NOT correct.
+***        Student solution:
+***      q_values_k_1_action_east: """
+***                illegal
+***                10.0000
+***                illegal
+***     """
+***     
+***     
+***        Correct solution:
+***      q_values_k_1_action_east: """
+***                illegal
+***                 0.0000
+***                illegal
+***     """
+***     
+***     
+***     Q-Values at iteration 1 for action south are NOT correct.
+***        Student solution:
+***      q_values_k_1_action_south: """
+***                illegal
+***                10.0000
+***                illegal
+***     """
+***     
+***     
+***        Correct solution:
+***      q_values_k_1_action_south: """
+***                illegal
+***                 5.6250
+***                illegal
+***     """
+***     
+***     
+***     Q-Values at iteration 1 for action west are NOT correct.
+***        Student solution:
+***      q_values_k_1_action_west: """
+***                illegal
+***                10.0000
+***                illegal
+***     """
+***     
+***     
+***        Correct solution:
+***      q_values_k_1_action_west: """
+***                illegal
+***                 0.0000
+***                illegal
+***     """
+***     
+***     
+***     
+***     For more details to help you debug, see test output file test_cases/q1/2-tinygrid-noisy.test_output
+***     
+***     
+*** FAIL: test_cases/q1/3-bridge.test
+***     Values at iteration 1 are NOT correct.
+***        Student solution:
+***      values_k_1: """
+***             __________      10.0000   __________
+***              -100.0000       1.0000      10.0000
+***              -100.0000       1.0000      10.0000
+***              -100.0000       1.0000      10.0000
+***              -100.0000       1.0000      10.0000
+***              -100.0000       1.0000      10.0000
+***             __________       1.0000   __________
+***     """
+***     
+***     
+***        Correct solution:
+***      values_k_1: """
+***             __________      10.0000   __________
+***              -100.0000       0.0000    -100.0000
+***              -100.0000       0.0000    -100.0000
+***              -100.0000       0.0000    -100.0000
+***              -100.0000       0.0000    -100.0000
+***              -100.0000       0.0000    -100.0000
+***             __________       1.0000   __________
+***     """
+***     
+***     
+***     Q-Values at iteration 1 for action north are NOT correct.
+***        Student solution:
+***      q_values_k_1_action_north: """
+***             __________      illegal   __________
+***                illegal       4.5000      illegal
+***                illegal      -3.6000      illegal
+***                illegal      -3.6000      illegal
+***                illegal      -3.6000      illegal
+***                illegal      -3.6000      illegal
+***             __________      illegal   __________
+***     """
+***     
+***     
+***        Correct solution:
+***      q_values_k_1_action_north: """
+***             __________      illegal   __________
+***                illegal      -0.8500      illegal
+***                illegal      -8.5000      illegal
+***                illegal      -8.5000      illegal
+***                illegal      -8.5000      illegal
+***                illegal      -8.5000      illegal
+***             __________      illegal   __________
+***     """
+***     
+***     
+***     Q-Values at iteration 1 for action east are NOT correct.
+***        Student solution:
+***      q_values_k_1_action_east: """
+***             __________      illegal   __________
+***                illegal       9.5500      illegal
+***                illegal       9.1000      illegal
+***                illegal       9.1000      illegal
+***                illegal       9.1000      illegal
+***                illegal       9.1000      illegal
+***             __________      illegal   __________
+***     """
+***     
+***     
+***        Correct solution:
+***      q_values_k_1_action_east: """
+***             __________      illegal   __________
+***                illegal     -76.0750      illegal
+***                illegal     -76.5000      illegal
+***                illegal     -76.5000      illegal
+***                illegal     -76.5000      illegal
+***                illegal     -76.4575      illegal
+***             __________      illegal   __________
+***     """
+***     
+***     
+***     Q-Values at iteration 1 for action south are NOT correct.
+***        Student solution:
+***      q_values_k_1_action_south: """
+***             __________      illegal   __________
+***                illegal      -3.6000      illegal
+***                illegal      -3.6000      illegal
+***                illegal      -3.6000      illegal
+***                illegal      -3.6000      illegal
+***                illegal      -3.6000      illegal
+***             __________      illegal   __________
+***     """
+***     
+***     
+***        Correct solution:
+***      q_values_k_1_action_south: """
+***             __________      illegal   __________
+***                illegal      -8.5000      illegal
+***                illegal      -8.5000      illegal
+***                illegal      -8.5000      illegal
+***                illegal      -8.5000      illegal
+***                illegal      -7.7350      illegal
+***             __________      illegal   __________
+***     """
+***     
+***     
+***     Q-Values at iteration 1 for action west are NOT correct.
+***        Student solution:
+***      q_values_k_1_action_west: """
+***             __________      illegal   __________
+***                illegal     -89.4500      illegal
+***                illegal     -89.9000      illegal
+***                illegal     -89.9000      illegal
+***                illegal     -89.9000      illegal
+***                illegal     -89.9000      illegal
+***             __________      illegal   __________
+***     """
+***     
+***     
+***        Correct solution:
+***      q_values_k_1_action_west: """
+***             __________      illegal   __________
+***                illegal     -76.0750      illegal
+***                illegal     -76.5000      illegal
+***                illegal     -76.5000      illegal
+***                illegal     -76.5000      illegal
+***                illegal     -76.4575      illegal
+***             __________      illegal   __________
+***     """
+***     
+***     
+***     
+***     For more details to help you debug, see test output file test_cases/q1/3-bridge.test_output
+***     
+***     
+*** FAIL: test_cases/q1/4-discountgrid.test
+***     Values at iteration 1 are NOT correct.
+***        Student solution:
+***      values_k_1: """
+***               -10.0000       0.0000      10.0000      10.0000      10.0000
+***               -10.0000       0.0000   __________      10.0000      10.0000
+***               -10.0000       0.0000       1.0000      10.0000      10.0000
+***               -10.0000       0.0000   __________   __________      10.0000
+***               -10.0000       0.0000       0.0000      10.0000      10.0000
+***     """
+***     
+***     
+***        Correct solution:
+***      values_k_1: """
+***               -10.0000       0.0000      10.0000       0.0000       0.0000
+***               -10.0000       0.0000   __________       0.0000       0.0000
+***               -10.0000       0.0000       1.0000       0.0000       0.0000
+***               -10.0000       0.0000   __________   __________       0.0000
+***               -10.0000       0.0000       0.0000       0.0000       0.0000
+***     """
+***     
+***     
+***     Q-Values at iteration 1 for action north are NOT correct.
+***        Student solution:
+***      q_values_k_1_action_north: """
+***                illegal       0.0000      illegal      10.0000      10.0000
+***                illegal      -1.0000   __________      10.0000      10.0000
+***                illegal      -0.9000      illegal       9.1000      10.0000
+***                illegal      -1.0000   __________   __________      10.0000
+***                illegal      -1.0000       1.0000       9.0000      10.0000
+***     """
+***     
+***     
+***        Correct solution:
+***      q_values_k_1_action_north: """
+***                illegal       0.0000      illegal       0.9000       0.0000
+***                illegal      -0.9000   __________       0.0000       0.0000
+***                illegal      -0.8100      illegal       0.0900       0.0000
+***                illegal      -0.9000   __________   __________       0.0000
+***                illegal      -0.9000       0.0000       0.0000       0.0000
+***     """
+***     
+***     
+***     Q-Values at iteration 1 for action east are NOT correct.
+***        Student solution:
+***      q_values_k_1_action_east: """
+***                illegal       8.0000      illegal      10.0000      10.0000
+***                illegal       0.0000   __________      10.0000      10.0000
+***                illegal       0.8000      illegal      10.0000      10.0000
+***                illegal       0.0000   __________   __________      10.0000
+***                illegal       0.0000       8.0000      10.0000      10.0000
+***     """
+***     
+***     
+***        Correct solution:
+***      q_values_k_1_action_east: """
+***                illegal       7.2000      illegal       0.0000       0.0000
+***                illegal       0.0000   __________       0.0000       0.0000
+***                illegal       0.7200      illegal       0.0000       0.0000
+***                illegal       0.0000   __________   __________       0.0000
+***                illegal       0.0000       0.0000       0.0000       0.0000
+***     """
+***     
+***     
+***     Q-Values at iteration 1 for action south are NOT correct.
+***        Student solution:
+***      q_values_k_1_action_south: """
+***                illegal       0.0000      illegal      10.0000      10.0000
+***                illegal      -1.0000   __________      10.0000      10.0000
+***                illegal      -0.9000      illegal       9.1000      10.0000
+***                illegal      -1.0000   __________   __________      10.0000
+***                illegal      -1.0000       1.0000       9.0000      10.0000
+***     """
+***     
+***     
+***        Correct solution:
+***      q_values_k_1_action_south: """
+***                illegal       0.0000      illegal       0.9000       0.0000
+***                illegal      -0.9000   __________       0.0000       0.0000
+***                illegal      -0.8100      illegal       0.0900       0.0000
+***                illegal      -0.9000   __________   __________       0.0000
+***                illegal      -0.9000       0.0000       0.0000       0.0000
+***     """
+***     
+***     
+***     Q-Values at iteration 1 for action west are NOT correct.
+***        Student solution:
+***      q_values_k_1_action_west: """
+***                illegal      -8.0000      illegal      10.0000      10.0000
+***                illegal      -8.0000   __________      10.0000      10.0000
+***                illegal      -8.0000      illegal       2.8000      10.0000
+***                illegal      -8.0000   __________   __________      10.0000
+***                illegal      -8.0000       0.0000       2.0000      10.0000
+***     """
+***     
+***     
+***        Correct solution:
+***      q_values_k_1_action_west: """
+***                illegal      -7.2000      illegal       7.2000       0.0000
+***                illegal      -7.2000   __________       0.0000       0.0000
+***                illegal      -7.2000      illegal       0.7200       0.0000
+***                illegal      -7.2000   __________   __________       0.0000
+***                illegal      -7.2000       0.0000       0.0000       0.0000
+***     """
+***     
+***     
+***     
+***     For more details to help you debug, see test output file test_cases/q1/4-discountgrid.test_output
+***     
+***     
+*** Tests failed.
+
+### Question q1: 0/6 ###
+
+
+Finished at 1:53:43
+
+Provisional grades
+==================
+Question q1: 0/6
+------------------
+Total: 0/6
+
+Your grades are NOT yet registered.  To register your grades, make sure
+to follow your instructor's guidelines to receive credit on your project.
+
